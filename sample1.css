@@ -1,0 +1,58 @@
+body {
+margin: 0;
+font-size: 28px;
+}
+
+.conthead{
+	background-color: #ffffff;
+	padding: 20px;
+	text-align: center;
+}
+
+#contfnt {
+	overflow: hidden;
+	background-color: #00007f;
+}
+
+#contfnt a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#contfnt a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+#contfnt a.active {
+	color: white;
+}
+
+.content-body{
+	width: 65%;
+	height: 700px;
+	padding: 0;
+	top: 0;
+	margin-top: 0;	
+	border-left: 1px solid black;
+	border-top:1px solid transparent;
+	border-right: 1px solid black;
+	margin: 0px 0px 0px 0px;
+
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .content {
+	padding-top: 60px;
+}
+
